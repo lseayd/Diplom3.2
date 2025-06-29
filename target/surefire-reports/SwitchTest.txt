@@ -1,0 +1,49 @@
+-------------------------------------------------------------------------------
+Test set: SwitchTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 14.985 s <<< FAILURE! - in SwitchTest
+exitFromAccount(SwitchTest)  Time elapsed: 5.016 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 138
+Current browser version is 137.0.7151.120 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: '113838797in', ip: 'fe80:0:0:0:82c:f35a:aa87:c238%en0'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.2.1', java.version: '11.0.26'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: /Applications/Google Chrome..., extensions: []}}]}]
+	at SwitchTest.setup(SwitchTest.java:22)
+
+exitFromAccount(SwitchTest)  Time elapsed: 5.016 s  <<< ERROR!
+java.lang.NullPointerException
+	at SwitchTest.teardown(SwitchTest.java:81)
+
+clickOnLogoFromAccount(SwitchTest)  Time elapsed: 4.972 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 138
+Current browser version is 137.0.7151.120 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: '113838797in', ip: 'fe80:0:0:0:82c:f35a:aa87:c238%en0'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.2.1', java.version: '11.0.26'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: /Applications/Google Chrome..., extensions: []}}]}]
+	at SwitchTest.setup(SwitchTest.java:22)
+
+clickOnLogoFromAccount(SwitchTest)  Time elapsed: 4.972 s  <<< ERROR!
+java.lang.NullPointerException
+	at SwitchTest.teardown(SwitchTest.java:81)
+
+clickOnConstructorFromAccount(SwitchTest)  Time elapsed: 4.99 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 138
+Current browser version is 137.0.7151.120 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: '113838797in', ip: 'fe80:0:0:0:82c:f35a:aa87:c238%en0'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.2.1', java.version: '11.0.26'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: /Applications/Google Chrome..., extensions: []}}]}]
+	at SwitchTest.setup(SwitchTest.java:22)
+
+clickOnConstructorFromAccount(SwitchTest)  Time elapsed: 4.993 s  <<< ERROR!
+java.lang.NullPointerException
+	at SwitchTest.teardown(SwitchTest.java:81)
+
